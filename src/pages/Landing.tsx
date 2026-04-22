@@ -181,12 +181,12 @@ export default function Landing() {
             <Logo size={38} />
           </div>
           <div className="orbit-ring">
-            <div className="chain-badge">BNB</div>
-            <div className="chain-badge">SOL</div>
-            <div className="chain-badge">ETH</div>
-            <div className="chain-badge">AVAX</div>
-            <div className="chain-badge">MATIC</div>
-            <div className="chain-badge">ARB</div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/bnb-bnb-logo.svg" alt="BNB" /></div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/solana-sol-logo.svg" alt="SOL" /></div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/ethereum-eth-logo.svg" alt="ETH" /></div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/avalanche-avax-logo.svg" alt="AVAX" /></div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/polygon-matic-logo.svg" alt="MATIC" /></div>
+            <div className="chain-badge"><img src="https://cryptologos.cc/logos/arbitrum-arb-logo.svg" alt="ARB" /></div>
           </div>
         </div>
       </section>
