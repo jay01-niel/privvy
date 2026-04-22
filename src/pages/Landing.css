@@ -17,6 +17,8 @@
 .landing {
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* ===========================
@@ -542,6 +544,11 @@
 }
 
 @media (max-width: 768px) {
+  .land-nav { padding: 0.8rem 4%; }
+  .land-nav-brand { font-size: 1.15rem; gap: 0.4rem; }
+  .land-nav-brand svg { width: 24px; height: 24px; }
+  .land-nav-cta { padding: 0.5rem 1rem; font-size: 0.85rem; }
+  
   .land-nav-menu a:not(.land-nav-cta) { display: none; }
   .land-hero-headline { font-size: clamp(2.5rem, 8vw, 3.5rem); }
   .land-features-grid { grid-template-columns: 1fr; }
