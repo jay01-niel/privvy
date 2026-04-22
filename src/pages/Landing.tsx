@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  Shield,
   ArrowRight,
   Layers,
   Zap,
@@ -12,6 +11,7 @@ import {
   Eye,
   EyeOff,
 } from 'lucide-react';
+import Logo from '../components/Logo.tsx';
 import './Landing.css';
 
 /* ═══════════════════════════════════════════
@@ -143,7 +143,7 @@ export default function Landing() {
       {/* ── NAV ── */}
       <nav className="land-nav" id="nav">
         <div className="land-nav-brand">
-          <Shield size={26} />
+          <Logo size={30} />
           <span>PrivyCash</span>
         </div>
         <div className="land-nav-menu">
@@ -178,7 +178,7 @@ export default function Landing() {
         {/* orbiting chain logos */}
         <div className="orbit-container">
           <div className="orbit-center">
-            <Shield size={30} />
+            <Logo size={38} />
           </div>
           <div className="orbit-ring">
             <div className="chain-badge">BNB</div>
@@ -264,7 +264,7 @@ export default function Landing() {
       <footer className="land-footer">
         <div className="land-footer-inner">
           <div className="land-footer-brand">
-            <Shield size={22} />
+            <Logo size={26} />
             <span>PrivyCash</span>
           </div>
           <div className="land-footer-links">

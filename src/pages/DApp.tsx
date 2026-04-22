@@ -1,4 +1,5 @@
-import { Shield, ShieldX, Zap, ArrowRightLeft } from 'lucide-react';
+import { ShieldX, Zap, ArrowRightLeft } from 'lucide-react';
+import Logo from '../components/Logo.tsx';
 import './DApp.css';
 
 function DApp() {
@@ -17,7 +18,7 @@ function DApp() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-logo">
-          <Shield className="logo-icon" size={32} />
+          <Logo size={32} />
           <span className="logo-text">PrivyCash</span>
         </div>
         <div className="nav-links">
