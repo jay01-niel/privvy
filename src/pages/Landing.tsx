@@ -108,12 +108,12 @@ function ParticleCanvas() {
    FEATURES DATA
    ═══════════════════════════════════════════ */
 const FEATURES = [
-  { icon: <Lock size={24} />,        title: 'No KYC Required',   desc: 'Swap freely without identity verification. Your privacy is non-negotiable.' },
-  { icon: <Eye size={24} />,         title: 'Break the Trace',   desc: 'The on-chain link between sender and receiver is completely severed.' },
-  { icon: <Globe size={24} />,       title: '20+ Networks',      desc: 'BNB, SOL, ETH, AVAX, Polygon, Arbitrum, and many more supported.' },
-  { icon: <Zap size={24} />,         title: 'Lightning Fast',    desc: 'Sub-minute settlement times. Your funds arrive before you blink.' },
-  { icon: <Coins size={24} />,       title: '240+ Assets',       desc: 'The widest privacy swap coverage in the entire DeFi ecosystem.' },
-  { icon: <ShieldCheck size={24} />, title: 'Non-Custodial',     desc: 'Your keys, your crypto, always. We never touch your funds.' },
+  { icon: <Lock size={24} />, title: 'No KYC Required', desc: 'Swap freely without identity verification. Your privacy is non-negotiable.' },
+  { icon: <Eye size={24} />, title: 'Break the Trace', desc: 'The on-chain link between sender and receiver is completely severed.' },
+  { icon: <Globe size={24} />, title: '20+ Networks', desc: 'BNB, SOL, ETH, AVAX, Polygon, Arbitrum, and many more supported.' },
+  { icon: <Zap size={24} />, title: 'Lightning Fast', desc: 'Sub-minute settlement times. Your funds arrive before you blink.' },
+  { icon: <Coins size={24} />, title: '240+ Assets', desc: 'The widest privacy swap coverage in the entire DeFi ecosystem.' },
+  { icon: <ShieldCheck size={24} />, title: 'Non-Custodial', desc: 'Your keys, your crypto, always. We never touch your funds.' },
 ];
 
 /* ═══════════════════════════════════════════
@@ -272,7 +272,7 @@ export default function Landing() {
             <a href="#">Twitter</a>
             <a href="#">Telegram</a>
           </div>
-          <p className="land-footer-copy">&copy; 2025 PrivyCash. All rights reserved.</p>
+          <p className="land-footer-copy">&copy; 2026 PrivyCash. All rights reserved.</p>
         </div>
       </footer>
     </div>
