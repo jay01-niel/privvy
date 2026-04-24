@@ -268,9 +268,9 @@ export default function Landing() {
             <span>PrivyCash</span>
           </div>
           <div className="land-footer-links">
-            <a href="#">Docs</a>
-            <a href="#">Twitter</a>
-            <a href="#">Telegram</a>
+            <a href="https://docs.privycash.app">Docs</a>
+            <a href="https://x.com/Privy_cash">Twitter</a>
+
           </div>
           <p className="land-footer-copy">&copy; 2026 PrivyCash. All rights reserved.</p>
         </div>
