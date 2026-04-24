@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/ghosty/:path*",
+      "destination": "https://api.ghosty.cash/:path*"
+    }
+  ]
+}

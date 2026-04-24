@@ -1,13 +1,9 @@
 import { ShieldX, Zap, ArrowRightLeft } from 'lucide-react';
 import Logo from '../components/Logo.tsx';
+import SwapWidget from '../components/SwapWidget.tsx';
 import './DApp.css';
 
 function DApp() {
-  const apiKey = "MW8D5nfhcrQ_FX_Qq29fOAGe4mV5esP3I4kk9lDK0H8";
-
-  // As per user request, we use the main embedded widget id, but also pass the api key.
-  const widgetId = "117b56c2d987a0a5";
-  const widgetUrl = `https://www.ghosty.cash/swap-widget/${widgetId}?apiKey=${apiKey}&receive-address=&from=&to=&amount=&support=false`;
 
   return (
     <div className="app-container">
@@ -69,19 +65,7 @@ function DApp() {
               <span className="widget-title">Privy Swap</span>
             </div>
             <div className="widget-body">
-              <iframe
-                id="privycash-widget"
-                src={widgetUrl}
-                style={{
-                  width: "100%",
-                  height: "660px",
-                  minWidth: "360px",
-                  borderRadius: "15px",
-                  border: "none",
-                  overflow: "hidden"
-                }}
-                title="PrivyCash Swap Widget"
-              />
+              <SwapWidget />
             </div>
           </div>
         </section>
