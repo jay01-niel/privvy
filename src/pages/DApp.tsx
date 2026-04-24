@@ -20,7 +20,7 @@ function DApp() {
         <div className="nav-links">
           <a href="#swap">Swap</a>
           <a href="#features">Features</a>
-          <a href=" " target="_blank" rel="noreferrer" className="btn-docs">Docs</a>
+          <a href="https://docs.privycash.app" target="_blank" rel="noreferrer" className="btn-docs">Docs</a>
         </div>
       </nav>
 
